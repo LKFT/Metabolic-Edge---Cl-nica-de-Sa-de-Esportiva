@@ -1,0 +1,12 @@
+/* Estilos Gerais */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Classe para a imagem de fundo da seção Hero */
+.hero-bg {
+    background-image: url('https://images.unsplash.com/photo-1517836357463-d257692635c3?q=80&w=2070&auto=format&fit=crop');
+    background-size: cover;
+    background-position: center;
+}
+

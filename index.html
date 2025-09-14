@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Metabolic Edge - Clínica de Saúde Esportiva</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-50">
+
+    <!-- Cabeçalho e Navegação -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-teal-600">Metabolic Edge</a>
+            <div class="hidden md:flex space-x-6 items-center">
+                <a href="#inicio" class="text-gray-600 hover:text-teal-600 transition duration-300">Início</a>
+                <a href="#servicos" class="text-gray-600 hover:text-teal-600 transition duration-300">Serviços</a>
+                <a href="#sobre" class="text-gray-600 hover:text-teal-600 transition duration-300">Sobre Nós</a>
+                <a href="#contato" class="text-gray-600 hover:text-teal-600 transition duration-300">Contato</a>
+                <a href="#contato" class="bg-teal-500 hover:bg-teal-600 text-white font-bold py-2 px-4 rounded-lg shadow-lg transition duration-300">Agendar Consulta</a>
+            </div>
+             <!-- Menu Mobile -->
+            <button id="mobile-menu-button" class="md:hidden text-gray-700">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                </svg>
+            </button>
+        </nav>
+        <div id="mobile-menu" class="hidden md:hidden px-6 pb-4 space-y-2">
+             <a href="#inicio" class="block text-gray-600 hover:text-teal-600">Início</a>
+             <a href="#servicos" class="block text-gray-600 hover:text-teal-600">Serviços</a>
+             <a href="#sobre" class="block text-gray-600 hover:text-teal-600">Sobre Nós</a>
+             <a href="#contato" class="block text-gray-600 hover:text-teal-600">Contato</a>
+             <a href="#contato" class="block bg-teal-500 text-center hover:bg-teal-600 text-white font-bold py-2 px-4 rounded-lg shadow-lg transition duration-300 mt-2">Agendar Consulta</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Seção Hero -->
+        <section id="inicio" class="hero-bg text-white">
+            <div class="bg-black bg-opacity-50 min-h-[60vh] flex items-center">
+                <div class="container mx-auto px-6 text-center">
+                    <h1 class="text-4xl md:text-6xl font-bold mb-4">Alcance seu Desempenho Máximo</h1>
+                    <p class="text-lg md:text-xl mb-8 max-w-3xl mx-auto">Soluções integradas em nutrição e saúde esportiva para atletas amadores e profissionais.</p>
+                    <a href="#contato" class="bg-teal-500 hover:bg-teal-600 text-white font-bold py-3 px-8 rounded-lg text-lg shadow-xl transition duration-300">Comece sua Jornada</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de Serviços -->
+        <section id="servicos" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl font-bold text-center text-gray-800 mb-2">Nossos Serviços</h2>
+                <p class="text-center text-gray-500 mb-12">Tudo que você precisa para evoluir com segurança e saúde.</p>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Card de Serviço 1 -->
+                    <div class="bg-gray-50 rounded-lg shadow-lg p-8 text-center hover:shadow-xl hover:-translate-y-2 transition-transform duration-300">
+                        <div class="text-teal-500 mb-4">[Ícone de Nutrição]</div>
+                        <h3 class="text-xl font-bold mb-2 text-gray-800">Nutrição Esportiva</h3>
+                        <p class="text-gray-600">Planos alimentares personalizados para otimizar sua performance, recuperação e composição corporal.</p>
+                    </div>
+                    <!-- Card de Serviço 2 -->
+                    <div class="bg-gray-50 rounded-lg shadow-lg p-8 text-center hover:shadow-xl hover:-translate-y-2 transition-transform duration-300">
+                         <div class="text-teal-500 mb-4">[Ícone de Avaliação]</div>
+                        <h3 class="text-xl font-bold mb-2 text-gray-800">Avaliação Física Completa</h3>
+                        <p class="text-gray-600">Análise detalhada da sua composição corporal e performance para traçar metas realistas e eficazes.</p>
+                    </div>
+                    <!-- Card de Serviço 3 -->
+                    <div class="bg-gray-50 rounded-lg shadow-lg p-8 text-center hover:shadow-xl hover:-translate-y-2 transition-transform duration-300">
+                         <div class="text-teal-500 mb-4">[Ícone de Fisioterapia]</div>
+                        <h3 class="text-xl font-bold mb-2 text-gray-800">Prevenção de Lesões</h3>
+                        <p class="text-gray-600">Trabalho focado em fortalecimento e mobilidade para que você treine sem interrupções e com segurança.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Sobre Nós -->
+        <section id="sobre" class="py-20 bg-gray-50">
+            <div class="container mx-auto px-6 flex flex-col md:flex-row items-center gap-12">
+                <div class="md:w-1/2">
+                    <img src="https://placehold.co/600x400/e2e8f0/333333?text=Nosso+Consultório" alt="Foto do consultório" class="rounded-lg shadow-xl">
+                </div>
+                <div class="md:w-1/2">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-4">Ciência e Paixão pelo Esporte</h2>
+                    <p class="text-gray-600 mb-4">
+                        Nascemos da união entre o conhecimento científico e a vivência prática no esporte. Acreditamos que cada indivíduo é único, e por isso, nossa abordagem é 100% personalizada.
+                    </p>
+                    <p class="text-gray-600">
+                        Nossa missão é fornecer as ferramentas para que você ultrapasse seus limites, seja na busca por qualidade de vida ou por um lugar no pódio.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de Depoimentos -->
+        <section class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl font-bold text-center text-gray-800 mb-2">O que nossos Pacientes Dizem</h2>
+                <p class="text-center text-gray-500 mb-12">Resultados que falam por si.</p>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 text-center">
+                    <!-- Depoimento 1 -->
+                    <div class="bg-gray-50 p-8 rounded-lg shadow-lg">
+                        <p class="text-gray-600 mb-4">"O acompanhamento nutricional foi um divisor de águas na minha preparação para a maratona. Mais energia e uma recuperação muito mais rápida."</p>
+                        <p class="font-bold text-gray-800">- Joana Silva</p>
+                        <p class="text-sm text-teal-600">Maratonista Amadora</p>
+                    </div>
+                     <!-- Depoimento 2 -->
+                     <div class="bg-gray-50 p-8 rounded-lg shadow-lg">
+                        <p class="text-gray-600 mb-4">"Consegui atingir meus objetivos de hipertrofia de forma saudável e sustentável. Recomendo a todos!"</p>
+                        <p class="font-bold text-gray-800">- Carlos Pereira</p>
+                        <p class="text-sm text-teal-600">Praticante de Musculação</p>
+                    </div>
+                     <!-- Depoimento 3 -->
+                     <div class="bg-gray-50 p-8 rounded-lg shadow-lg">
+                        <p class="text-gray-600 mb-4">"A equipe é extremamente atenciosa e profissional. Me ajudaram a voltar a treinar sem dores após uma lesão."</p>
+                        <p class="font-bold text-gray-800">- Mariana Costa</p>
+                        <p class="text-sm text-teal-600">Jogadora de Vôlei</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer id="contato" class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-2xl font-bold mb-4">Pronto para começar?</h2>
+            <p class="mb-6">Entre em contato e agende sua primeira consulta.</p>
+            <div class="flex flex-col md:flex-row justify-center items-center gap-8 mb-8">
+                 <p><span class="font-bold">Email:</span> contato@clinicaesportiva.com</p>
+                 <p><span class="font-bold">Telefone:</span> (71) 99999-8888</p>
+                 <p><span class="font-bold">Endereço:</span> Rua da Performance, 123, Salvador - BA</p>
+            </div>
+            <a href="https://wa.me/5571999998888?text=Olá!%20Gostaria%20de%20agendar%20uma%20consulta." target="_blank" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-lg text-lg shadow-xl transition duration-300 inline-block">Agendar pelo WhatsApp</a>
+            <div class="mt-8 border-t border-gray-700 pt-6">
+                <p>&copy; 2025 Clínica Esportiva. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Script para menu mobile
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Script para fechar o menu ao clicar em um link
+        const menuLinks = mobileMenu.getElementsByTagName('a');
+        for(let i=0; i<menuLinks.length; i++) {
+            menuLinks[i].addEventListener('click', () => {
+                 mobileMenu.classList.add('hidden');
+            });
+        }
+    </script>
+</body>
+</html>
+
