@@ -5,7 +5,7 @@ body {
 
 /* Classe para a imagem de fundo da seção Hero */
 .hero-bg {
-    background-image: url('https://images.unsplash.com/photo-1517836357463-d257692635c3?q=80&w=2070&auto=format&fit=crop');
+    background-image: url('/img/christopher-campbell-kFCdfLbu6zA-unsplash.jpg'); /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     background-position: center;
 }
