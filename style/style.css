@@ -5,7 +5,7 @@ body {
 
 /* Classe para a imagem de fundo da seção Hero */
 .hero-bg {
-    background-image: url('img/Fundo.jpg');
+    background-image: url('/img/Img1.jpg');
     background-size: cover;
     background-position: center;
 }
