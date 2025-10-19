@@ -5,7 +5,7 @@ body {
 
 /* Classe para a imagem de fundo da seção Hero */
 .hero-bg {
-    background-image: url('/img/Fubudo1.jpg'); /* Substitua pelo caminho da sua imagem */
+    background-image: url('/img/Fundo.jpg'); /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     background-position: center;
 }
