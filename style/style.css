@@ -5,8 +5,10 @@ body {
 
 /* Classe para a imagem de fundo da seção Hero */
 .hero-bg {
+    /* Use um link de uma imagem hospedada na web para funcionar no preview.
+      Eu substituí o seu caminho local 'img/Img1.jpg' por esta URL.
+    */
     background-image: url('https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=1950&q=80');
     background-size: cover;
     background-position: center;
 }
-
