@@ -8,7 +8,7 @@ body {
     /* Vamos tentar uma nova URL de imagem de um domínio diferente (Pexels)
       e adicionar !important para garantir que esta regra seja aplicada.
     */
-    background-image: src= "https://images.pexels.com/photos/2294361/pexels-photo-2294361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" !important;
+    background-image: <img src= "https://images.pexels.com/photos/2294361/pexels-photo-2294361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"> !important;
     background-size: cover;
     background-position: center;
 }
