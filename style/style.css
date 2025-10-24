@@ -5,10 +5,10 @@ body {
 
 /* Classe para a imagem de fundo da seção Hero */
 .hero-bg {
-    /* Use um link de uma imagem hospedada na web para funcionar no preview.
-      Eu substituí o seu caminho local 'img/Img1.jpg' por esta URL.
+    /* Vamos tentar uma nova URL de imagem de um domínio diferente (Pexels)
+      e adicionar !important para garantir que esta regra seja aplicada.
     */
-    background-image: url('https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=1950&q=80');
+    background-image: url('https://images.pexels.com/photos/2294361/pexels-photo-2294361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') !important;
     background-size: cover;
     background-position: center;
 }
